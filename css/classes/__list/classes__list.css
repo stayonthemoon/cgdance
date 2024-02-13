@@ -1,0 +1,101 @@
+.classes__list {
+    margin: 0;
+    padding: 0;
+    margin-top: 68px;
+    list-style: none;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+    display: block;
+    border-left: solid;
+}
+
+.classes__list-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-bottom: solid;
+    margin-left: 130px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.classes__list-item_date {
+    margin: 0;
+    padding: 0;
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.classes__list-item_day {
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.classes__list-item_block {
+    display: block;
+    background-color: #E71D36;
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classes__list-item_block-text {
+    font-size: 16px;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: 700;
+}
+
+.classes__list-item_class {
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+    max-width: 343px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.classes__list-item_names,
+.classes__salsa,
+.classes__list-item_salsa,
+.classes__list-item_salsa-time,
+.classes__bachata,
+.classes__list-item_bachata,
+.classes__list-item_bachata-time {
+    margin: 0;
+    padding: 0;
+}
+
+.classes__list-item_names {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.classes__salsa,
+.classes__bachata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.classes__list-item_salsa-time,
+.classes__list-item_bachata-time {
+    display: block;
+    border-left: solid;
+    padding-left: 10px;
+}
