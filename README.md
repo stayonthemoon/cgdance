@@ -5,3 +5,4 @@
 1.0 Header and classes section with styles, laptop version only
 2.0 Plans section with styles for laptop
 3.0 Almost finished with HTML, only footer's left. Styles till Contacts section. Only laptop styles
+4.0 HTML is done, also all the styles for laptop
